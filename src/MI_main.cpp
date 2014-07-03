@@ -132,9 +132,10 @@ int main (int argc, char *argv[]){
 	if (argc != 6)	{
 		fprintf(stderr,"\n===================== HELP ========================\n");
 		fprintf(stderr,"Number of argument should be 5 ...\n");
-		fprintf(stderr,"Usage: ./mutual_information <k> <nc> <INPUT FILE> <OUTPUT FILE MI> <OUTPUT FILE R>\n");
-		fprintf(stderr,"Where \"k\" is number of nearest neighbor points\n");
-		fprintf(stderr,"Where \"nc\" is no. of column. e.g. if total no. of column is 5 and nc is 3 then 3x2 matrix will be computed. If nc=0, 5x5 matrix will be computed.\n");
+		fprintf(stderr,"Usage:\n\nmi <k> <nc> <INPUT FILE> <OUTPUT FILE MI> <OUTPUT FILE R>\n\n");
+		fprintf(stderr,"Where \"k\" is number of nearest neighbor points.\n");
+		fprintf(stderr,"\"nc\" is no. of columns in input file.\n");
+		fprintf(stderr,"e.g. if total no. of column is 5 and nc is 3 then 3x2 matrix will be computed. If nc=0, 5x5 matrix will be computed.\n");
 		fprintf(stderr,"\n====================================================\n");
 		exit(1);
 	}
