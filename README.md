@@ -16,9 +16,10 @@ Generalized correlation for biomolecular dynamics
 Proteins: Structure, Function, and Bioinformatics 62:1053-1061.         
 URL: http://onlinelibrary.wiley.com/doi/10.1002/prot.20784/full         
 
-WARNING: This program is not completely tested for the calculation accuracy.
+<strong>WARNING:</strong> This program is not completely tested for the calculation accuracy.
          Use it at your own RISK.
-         
+***         
+
 ###Download
 <pre><code>git clone https://github.com/rjdkmr/mutual_information
 </code></pre>
